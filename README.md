@@ -9,3 +9,19 @@ Python2 与Python3 的区别
 
 详细情况可以看链接：
 [python2和3的区别](http://www.cnblogs.com/codingmylife/archive/2010/06/06/1752807.html)
+##第二天
+ctrl+z=^z 回车退出python
+
+常用的命令行
+
+dir:显示当前目录下的文件
+
+md:在当前目录下创建文件夹  格式：md 文件名
+
+cd：跳转目录
+
+cd.. 回到上一级目录
+
+cd/  回到根目录
+
+cd 文件名 跳转到当前文件夹的下一级文件夹
