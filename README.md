@@ -25,4 +25,20 @@ cd 文件名 跳转到当前文件夹的下一级文件夹
 -关于print:  
  1.#并空格能让该行无法显示  
  2.,能使输出不换行  
- 3.print输出1行空行，print"\n"能输出2行空行，print"\n"*3输出3行空行
+ 3.print输出1行空行，print"\n"能输出2行空行，print"\n"*3输出3行空行  
+
+##第四天（ex2.py&ex3.py）
+1.#号的用法和名字  
+-英文为 octothorpe，在引号中不会被忽略掉因为此时的#号是句子的一部分。  
+print "Hi # there." 里的 # 没被忽略掉。  
+-在引号结束后的#号会被忽略掉，具体可见ex2.py。
+
+2.运算符和数据类型  
+-%表示求余数，即“X 除以 Y 还剩余 J”求J  
+-/表示除，当不能整除时，对于整数型得到整数，[浮点数](http://blog.csdn.net/suchangming/article/details/1957066)则得到小数。  
+例如5/4和5.0/4.0的结果就不一样
+
+-运算优先级是什么样子的？
+美国我们用 PEMDAS 这个简称来辅助记忆，它的意思是“括号、指数、乘、除、加、减”——
+Parentheses Exponents Multiplication Division Addition Subtraction ——这也是 Python 里的
+运算优先级。
