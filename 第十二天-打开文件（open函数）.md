@@ -4,7 +4,11 @@
 testSTR = test.read()  
 print testSTR  
 
-第一句表示以读的方式打开a.txt文件，第二句表示将文件的内容读入并赋值给testSTR变量，第三句打印文件内容。  
+第一句表示以读的方式打开a.txt文件，第二句表示将文件的内容读入并赋值给testSTR变量，第三句打印文件内容。   
+
+**下面的方式更为简单：**
+>test = open(r'c:\a.txt','r')  
+print test.read()**
 
 ##一个常见的错误  
 IOError: [Errno 22] invalid mode ('r') or filename:
