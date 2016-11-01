@@ -16,3 +16,6 @@ IOError: [Errno 22] invalid mode ('r') or filename:
 
 ## 注意事项  
 打开文件的时候要填好文件路径，或者把文件放在python安装文件夹里
+
+## 关闭文件  
+打开了文件以后要关闭，关闭语句是对变量使用的：test.close()
