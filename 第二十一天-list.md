@@ -22,7 +22,13 @@ print str.join( seq );
 
 1.item（）：返回字典中的key和value组成一个元组，并放在列表中返回。没有item时用for循环遍历只会返回key值。
 
+>Return a copy of the dictionary’s list of (key, value) pairs.
+
 2.get（）：返回指定key的value，如果值不在字典中返回默认值，不输入时为none，若输入值，当不存在时则返回其输入值。
+
+> get(key[, default])  
+Return the value for key if key is in the dictionary, else default. If default is not given, it defaults to None, so that this method never raises a KeyError.
+
 >city = cities.get('TX', 'Does Not Exist')  
 print "The city for the state 'TX' is : %s" % city  
 
